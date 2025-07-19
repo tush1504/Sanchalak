@@ -1,0 +1,75 @@
+/* src/index.css */
+
+/* Reset all default margins, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* TARGETED BORDER RADIUS REMOVAL - ONLY FOR SIDEBAR */
+.sidebar-no-radius * {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiChip-root {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiChip-label {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiListItemButton-root {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiListItemButton-root:hover {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiButton-root {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiBox-root {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiPaper-root {
+  border-radius: 0 !important;
+}
+
+.sidebar-no-radius .MuiAvatar-root {
+  border-radius: 0 !important;
+}
+
+/* Make sure any nested elements don't have border radius */
+.sidebar-no-radius div,
+.sidebar-no-radius span,
+.sidebar-no-radius button {
+  border-radius: 0 !important;
+}
+
+/* Override any inline styles within sidebar */
+.sidebar-no-radius [style*="border-radius"] {
+  border-radius: 0 !important;
+}
