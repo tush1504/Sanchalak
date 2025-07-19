@@ -10,6 +10,12 @@ The project includes:
 
 ---
 
+## Live Deployment
+ - The Client side is deployed on Vercel. [Live Demo](https://sanchalak.vercel.app)
+ - Note:- the Server is running on Render , and may take some time to wakeup.[Server](https://sanchalak.onrender.com)
+
+---
+
 ## Project Structure
 
 ```

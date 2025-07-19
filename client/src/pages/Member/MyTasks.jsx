@@ -253,7 +253,7 @@ const MyTasks = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ color: '#1e293b', fontWeight: 700 }}>
-                  📝 My Tasks ({filteredTasks.length} tasks)
+                   My Tasks ({filteredTasks.length} tasks)
                 </Typography>
                 <Chip 
                   label={`${Math.round((filteredTasks.length / Math.max(myTasks.length, 1)) * 100)}% shown`}
@@ -295,8 +295,8 @@ const MyTasks = () => {
               <Assignment sx={{ fontSize: 150, color: '#94a3b8', mb: 4 }} />
               <Typography variant="h3" sx={{ color: '#475569', mb: 3, fontWeight: 800 }}>
                 {searchTerm || statusFilter !== 'all' || priorityFilter !== 'all'
-                  ? '🔍 No Tasks Found'
-                  : '📝 No Tasks Assigned Yet'
+                  ? ' No Tasks Found'
+                  : ' No Tasks Assigned Yet'
                 }
               </Typography>
               <Typography variant="h6" sx={{ color: '#64748b', mb: 5, maxWidth: 500, mx: 'auto' }}>

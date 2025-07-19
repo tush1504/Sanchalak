@@ -23,7 +23,7 @@ const PerformanceOverview = ({ completionPercentage, taskStats }) => {
       <CardContent sx={{ p: 4 }}>
         <Box sx={{ textAlign: 'center' }}>
           <Typography variant="h4" sx={{ fontWeight: 800, mb: 2 }}>
-            🎯 Your Performance
+             Your Performance
           </Typography>
           <Typography variant="h2" sx={{ fontWeight: 900, mb: 1 }}>
             {completionPercentage}%
@@ -48,10 +48,10 @@ const PerformanceOverview = ({ completionPercentage, taskStats }) => {
           </Box>
           <Typography variant="body1" sx={{ opacity: 0.8 }}>
             {completionPercentage >= 80 
-              ? "🌟 Excellent work! You're crushing your goals!"
+              ? " Excellent work! You're crushing your goals!"
               : completionPercentage >= 60
-              ? "💪 Great progress! Keep up the momentum!"
-              : "🚀 You've got this! Let's complete more tasks!"}
+              ? " Great progress! Keep up the momentum!"
+              : " You've got this! Let's complete more tasks!"}
           </Typography>
         </Box>
       </CardContent>

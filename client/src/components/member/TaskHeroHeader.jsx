@@ -54,7 +54,7 @@ const TaskHeroHeader = ({ isLoading, onRefresh }) => {
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 3 }}>
           <Box>
             <Typography variant="h2" sx={{ fontWeight: 900, mb: 2, fontSize: { xs: '2rem', md: '3rem' } }}>
-              📝 My Task Center
+               My Task Center
             </Typography>
             <Typography variant="h5" sx={{ opacity: 0.9, mb: 3, maxWidth: '600px' }}>
               Track your assignments, update progress, and achieve your goals

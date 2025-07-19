@@ -135,19 +135,19 @@ const TaskSearchFilter = ({
                 <MenuItem value="High">
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <Flag sx={{ mr: 1, color: '#f44336' }} />
-                    🔥 High
+                     High
                   </Box>
                 </MenuItem>
                 <MenuItem value="Medium">
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <Flag sx={{ mr: 1, color: '#ff9800' }} />
-                    ⚡ Medium
+                     Medium
                   </Box>
                 </MenuItem>
                 <MenuItem value="Low">
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <Flag sx={{ mr: 1, color: '#4caf50' }} />
-                    📌 Low
+                     Low
                   </Box>
                 </MenuItem>
               </Select>
@@ -165,7 +165,7 @@ const TaskSearchFilter = ({
             border: '2px solid #e2e8f0' 
           }}>
             <Typography variant="h6" sx={{ color: '#475569', mb: 2, fontWeight: 600 }}>
-              🎯 Active Filters
+               Active Filters
             </Typography>
             <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
               {searchTerm && (
