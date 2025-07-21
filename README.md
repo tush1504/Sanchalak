@@ -1,5 +1,5 @@
 
-# Sanchalak – Full-Stack Role-Based Task Management System
+# Sanchalak – Full-Stack Role-Based Team & Task Management System
 
 **Sanchalak** is a full-stack team & task manager application designed for teams with structured roles. It enables **Leaders** to manage members, assign tasks, view logs, and monitor team activity, while **Members** can track and update their assigned tasks. Email notifications are sent on key events, and dashboard views are role-specific.
 

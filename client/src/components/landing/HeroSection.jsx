@@ -121,7 +121,7 @@ const HeroSection = ({ animationTrigger }) => {
                     lineHeight: 1.2,
                   }}
                 >
-                  Your Ultimate Task Management Revolution
+                  Your Ultimate Team & Task Management Revolution
                 </Typography>
 
                 <Typography
@@ -250,7 +250,7 @@ const HeroSection = ({ animationTrigger }) => {
                   }}
                 >
                   <Typography variant="h6" sx={{ color: 'white', mb: 2, fontWeight: 700 }}>
-                    🚀 Live Dashboard Preview
+                     Live Dashboard Preview
                   </Typography>
                   
                   {/* Mini Dashboard Cards */}
