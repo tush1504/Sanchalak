@@ -142,7 +142,7 @@ const updateTaskStatus = asyncHandler(async (req, res) => {
           <li><strong>Description:</strong> ${task.description}</li>
           <li><strong>Deadline:</strong> ${new Date(task.deadline).toLocaleDateString()}</li>
         </ul>
-        <p>Login to the dashboard to review the task.</p>
+        <p><a href="https://sanchalak.vercel.app/login" target="_blank">Login</a> to the dashboard to review the task.</p>
       `,
     });
   }

@@ -41,7 +41,7 @@ const addMember = asyncHandler(async (req, res) => {
         <li><strong>Email:</strong> ${email}</li>
         <li><strong>Password:</strong> ${password}</li>
       </ul>
-      <p>Please log in and update your password after logging in.</p>
+      <p>Please <a href="https://sanchalak.vercel.app/login" target="_blank">log in</a> here.</p>
     `,
   });
 
